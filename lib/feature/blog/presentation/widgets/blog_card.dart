@@ -51,7 +51,7 @@ class BlogCardWidget extends StatelessWidget {
             const Spacer(),
             Text(
               "${calcReadingTime(blog.content)} min",
-              style: TextStyle(color: Colors.black),
+              style: const TextStyle(color: Colors.black),
             )
           ],
         ),
