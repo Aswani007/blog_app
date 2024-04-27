@@ -15,8 +15,8 @@ class AuthButton extends StatelessWidget {
             begin: Alignment.bottomLeft,
             end: Alignment.topRight,
             colors: [
-              AppPallete.gradient1,
-              AppPallete.gradient2,
+              AppPallete.mediumGreen,
+              AppPallete.darkGreen,
             ],
           ),
           borderRadius: BorderRadius.circular(15)),
